@@ -1,0 +1,42 @@
+body {
+  font-family: Alegrey, serif;
+  background: linear-gradient(to left, #ffabe1, #c9cbff);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0.7;
+  list-style: none;
+}
+
+.menu-item {
+  margin: 0 35px;
+}
+
+.menu-item:last-of-type {
+  color: #fd3a69;
+  border-bottom: 4px solid #f8d1be;
+}
+.hero-container {
+  position: relative;
+  left: 240%;
+}
+#header-logo {
+  position: relative;
+  top: 20px;
+  right: 25%;
+  align-self: center;
+  justify-self: center;
+  height: 60px;
+  width: 60px;
+}
